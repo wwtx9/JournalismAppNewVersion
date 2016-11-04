@@ -14,8 +14,8 @@ class ToneAnalyzer {
     var socialTone: SocialTone?
     
     let urlString = "https://gateway.watsonplatform.net/tone-analyzer/api/v3/tone?version=2016-05-19"
-    let username = "1f28450a-a4b6-4a2b-b1b5-249e612a5f32"  // your bluemix username
-    let password = "qPk7istAHCdY" // your bluemix password
+    let username = ""  // your bluemix username
+    let password = "" // your bluemix password
     
     
     func analyze(sourceText: String, completionHandler: @escaping (Data?, String?) -> Void) {
